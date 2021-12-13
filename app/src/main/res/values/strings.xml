@@ -9,4 +9,7 @@
     <string name="email">email</string>
     <string name="not_a_qwerty">not a qwerty</string>
     <string name="password">password</string>
+    <string name="warning">Please, fill the fileds first!</string>
+    <string name="about_the_person">About the person</string>
+    <string name="show_message">show message</string>
 </resources>
