@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:textAlignment="center"
+        tools:text="Person Info" />
+
+    <!--    TODO: place ImageView here-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            tools:text="Name"/>
+        <EditText
+            android:id="@+id/edit_text_age"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/age"
+            android:inputType="numberDecimal"
+            tools:text="25" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edit_text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        tools:text="+7123456789" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        tools:text="email@email.com" />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:text="qwerty" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/design_default_color_background" />
+
+    <TextView
+        android:id="@+id/edit_text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Person's life time in days"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:text="Person lives on the Earth *** days" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+
+</LinearLayout>
