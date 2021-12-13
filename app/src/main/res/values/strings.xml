@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gb_android1_project</string>
+    <string name="hello">Hello</string>
+    <string name="world">world</string>
+</resources>
