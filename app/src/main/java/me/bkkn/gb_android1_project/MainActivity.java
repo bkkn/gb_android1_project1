@@ -36,12 +36,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initUI() {
-        button = findViewById(R.id.button_ok);
-        editTextName = findViewById(R.id.edit_text_name);
-        textViewMessage = findViewById(R.id.edit_text_message);
-        editTextAge = findViewById(R.id.edit_text_age);
-        editTextPhone = findViewById(R.id.edit_text_phone);
-        editTextEmail = findViewById(R.id.edit_text_email);
+        button = findViewById(R.id.ok_button);
+        editTextName = findViewById(R.id.name_edit_text);
+        textViewMessage = findViewById(R.id.message_edit_text);
+        editTextAge = findViewById(R.id.age_edit_text);
+        editTextPhone = findViewById(R.id.phone_edit_text);
+        editTextEmail = findViewById(R.id.email_edit_text);
 //        editTextPassword = findViewById(R.id.edit_text_password);
         calendarView = findViewById(R.id.calendar_view);
     }

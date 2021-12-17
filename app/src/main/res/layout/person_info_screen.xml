@@ -7,54 +7,46 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="16dp"-->
-<!--        android:textAlignment="center"-->
-<!--        tools:text="Person Info" />-->
-
-    <!--    TODO: place ImageView here-->
-
     <LinearLayout
         android:id="@+id/linear_layout_horizontal_name_age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <EditText
-            android:id="@+id/edit_text_name"
+            android:id="@+id/name_edit_text"
             android:layout_width="match_parent"
-            android:layout_weight="1"
             android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
             android:hint="@string/name"
-            android:layout_margin="8dp"
             android:inputType="textPersonName"
-            tools:text="Name"/>
+            tools:text="Name" />
+
         <EditText
-            android:id="@+id/edit_text_age"
+            android:id="@+id/age_edit_text"
             android:layout_width="match_parent"
+            android:layout_height="48dp"
+
             android:layout_margin="8dp"
 
             android:layout_weight="1"
-
-            android:layout_height="48dp"
             android:hint="@string/age"
             android:inputType="numberDecimal"
             tools:text="25" />
     </LinearLayout>
 
-
     <EditText
-        android:id="@+id/edit_text_phone"
+        android:id="@+id/phone_edit_text"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="8dp"
-
         android:hint="@string/phone_number"
         android:inputType="phone"
         tools:text="+7123456789" />
 
     <EditText
-        android:id="@+id/edit_text_email"
+        android:id="@+id/email_edit_text"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="8dp"
@@ -62,40 +54,29 @@
         android:inputType="textEmailAddress"
         tools:text="email@email.com" />
 
-<!--    <EditText-->
-<!--        android:id="@+id/edit_text_password"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="48dp"-->
-<!--        android:layout_margin="8dp"/>-->
-<!--        android:hint="@string/password"-->
-<!--        android:inputType="textPassword"-->
-<!--        tools:text="qwerty" />-->
-
     <CalendarView
         android:id="@+id/calendar_view"
-        android:layout_margin="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:layout_weight="0" />
-<!--        android:background="@color/design_default_color_background"-->
 
     <TextView
-        android:id="@+id/edit_text_message"
+        android:id="@+id/message_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2"
-        android:textAlignment="center"
         android:hint="@string/about_the_person"
-        android:textSize="16dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
         android:textStyle="bold"
         tools:text="About the person" />
 
     <Button
-        android:id="@+id/button_ok"
-        android:layout_margin="8dp"
-
+        android:id="@+id/ok_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:text="@string/show_message" />
 
 </LinearLayout>
