@@ -8,7 +8,6 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-<!--    <include layout="@layout/sandbox"/>-->
     <include layout="@layout/person_info_screen"/>
 
 </LinearLayout>
